@@ -1,0 +1,103 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	background-color: #B178F4;
+}
+.wraper{
+	overflow: hidden;
+	width: 90%;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+}
+.logo{
+	width: 6%;
+	/*border: 1px solid red;*/
+
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	margin-top: -36px;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.menu ul{
+	margin-top: 0px;
+	
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+}
+.menu ul li a{
+	text-decoration: none;
+    font-family: sans-serif;
+    font-size: 11px;
+    color: white;
+    padding: 0 36px;
+    transition: .5s;
+}
+.menu ul li a:hover{
+	color: #FF6709;
+}
+
+/*header end*/
+/*banner start*/
+.banner{
+	background-color: #7280EF;
+}
+.banner_contant{
+	float: left;
+	width: 30%;
+
+}
+.banner_contant h1{
+	margin-top: 30px;
+}
+.banner_contant h4{}
+.banner_contant p{}
+.banner_contanth h4{}
+.banner_contant button{}
+.banner_image{
+	float: right;
+	
+}
+.banner_image img{
+
+}
+/*banner end*/
+/*footer start*/
+.footer{
+	background-color: #212121;
+}
+.menu2{
+	margin-top: -36px;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.menu2 ul{
+	margin-top: 0px;
+	
+}
+.menu2 ul li{
+	list-style: none;
+	float: left;
+
+}
+.menu2 ul li a{
+	text-decoration: none;
+    font-family: sans-serif;
+    font-size: 11px;
+    color: white;
+    padding: 0 36px;
+    transition: .5s;
+}
+.menu2 ul li a:hover{
+	color: #FF6709;
+}
+/*footer end*/
